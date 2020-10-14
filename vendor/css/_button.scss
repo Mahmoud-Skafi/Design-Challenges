@@ -1,0 +1,23 @@
+.btn {
+  padding: 15px 30px;
+  background: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn-pri {
+  border-radius: 50px;
+  border: 2px solid #000000;
+}
+.btn-sec {
+  border-radius: 50px;
+  border: none !important;
+  padding: 25px 45px;
+  color: #ffffff;
+  background-color: $primary-clr;
+  box-shadow: 0px 0px 78px -21px rgba(253, 83, 83, 1) !important;
+}
+.input-style {
+  padding: 25px 45px;
+  border-radius: 50px;
+  border: 2px solid #ebebeb;
+}

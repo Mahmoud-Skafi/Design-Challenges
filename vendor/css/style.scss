@@ -1,4 +1,7 @@
 @import 'var';
+@import 'display';
+@import 'card';
+@import 'button';
 /*
 font-family: 'Mulish', sans-serif;
 */
@@ -6,6 +9,37 @@ font-family: 'Mulish', sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-size: 16rem;
+  font-size: 16px;
   font-family: 'Mulish', sans-serif;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+.f-b {
+  font-weight: bold;
+}
+.f-l {
+  font-weight: 300;
+}
+.section-1 {
+  height: 100vh;
+}
+.logo {
+  font-size: 30px;
+}
+.navbar {
+  margin-top: 75px;
+}
+.main-header {
+  h1 {
+    font-size: 75px;
+  }
+  p {
+    font-size: 20px;
+    color: #b1aaaa;
+  }
+}
+.first-layout {
+  width: 50%;
 }

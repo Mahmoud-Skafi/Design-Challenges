@@ -1,4 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+.f-jcc {
+  display: flex !important;
+  justify-content: center !important; }
+
+.f-jcs {
+  display: flex !important;
+  justify-content: flex-start !important; }
+
+.f-jce {
+  display: flex !important;
+  justify-content: flex-end !important; }
+
+.f-jcb {
+  display: flex !important;
+  justify-content: space-between !important; }
+
+.f-jca {
+  display: flex !important;
+  justify-content: space-around !important; }
+
+.f-jcse {
+  display: flex !important;
+  justify-content: space-evenly !important; }
+
+.f-aic {
+  display: flex !important;
+  align-items: center !important; }
+
+.f-ais {
+  display: flex !important;
+  align-items: flex-start !important; }
+
+.f-aie {
+  display: flex !important;
+  align-items: flex-end !important; }
+
+.f-flex-row {
+  display: flex !important;
+  flex-direction: row !important; }
+
+.f-flex-col {
+  display: flex !important;
+  flex-direction: column !important; }
+
+.f-flex {
+  display: flex !important; }
+
+.f-c {
+  display: contents; }
+
+.btn {
+  padding: 15px 30px;
+  background: none;
+  font-weight: bold;
+  font-size: 20px; }
+
+.btn-pri {
+  border-radius: 50px;
+  border: 2px solid #000000; }
+
+.btn-sec {
+  border-radius: 50px;
+  border: none !important;
+  padding: 25px 45px;
+  color: #ffffff;
+  background-color: #fd5353;
+  box-shadow: 0px 0px 78px -21px #fd5353 !important; }
+
+.input-style {
+  padding: 25px 45px;
+  border-radius: 50px;
+  border: 2px solid #ebebeb; }
+
 /*
 font-family: 'Mulish', sans-serif;
 */
@@ -6,7 +79,35 @@ font-family: 'Mulish', sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-size: 16rem;
+  font-size: 16px;
   font-family: 'Mulish', sans-serif; }
+
+.container {
+  width: 85%;
+  margin: auto; }
+
+.f-b {
+  font-weight: bold; }
+
+.f-l {
+  font-weight: 300; }
+
+.section-1 {
+  height: 100vh; }
+
+.logo {
+  font-size: 30px; }
+
+.navbar {
+  margin-top: 75px; }
+
+.main-header h1 {
+  font-size: 75px; }
+.main-header p {
+  font-size: 20px;
+  color: #b1aaaa; }
+
+.first-layout {
+  width: 50%; }
 
 /*# sourceMappingURL=style.css.map */
