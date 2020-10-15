@@ -2,6 +2,7 @@
 @import 'display';
 @import 'card';
 @import 'button';
+@import 'font';
 /*
 font-family: 'Mulish', sans-serif;
 */
@@ -12,24 +13,26 @@ font-family: 'Mulish', sans-serif;
   font-size: 16px;
   font-family: 'Mulish', sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
 .container {
   width: 85%;
   margin: auto;
 }
-.f-b {
-  font-weight: bold;
-}
-.f-l {
-  font-weight: 300;
-}
+
 .section-1 {
   height: 100vh;
+  position: relative;
 }
 .logo {
   font-size: 30px;
 }
 .navbar {
-  margin-top: 75px;
+  padding-top: 75px;
 }
 .main-header {
   h1 {
@@ -42,4 +45,126 @@ font-family: 'Mulish', sans-serif;
 }
 .first-layout {
   width: 50%;
+}
+.second-layout {
+  width: 50%;
+}
+.main-image {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: -1;
+}
+.card-image-container {
+  position: absolute;
+}
+.second-layout {
+  // padding-top: 140px;
+  position: relative;
+  z-index: -1;
+}
+.first-layout {
+  padding-top: 170px;
+}
+.my-55 {
+  margin: 55px 0px;
+}
+.max-w-p {
+  max-width: 75%;
+}
+.m-l-40 {
+  margin-left: 40px;
+}
+.section-2 {
+  height: auto;
+  margin-bottom: 200px;
+}
+.brands-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  z-index: 100;
+  column-gap: 30px;
+  row-gap: 60px;
+  align-items: center;
+}
+.sec-2-layout-1 {
+  width: 50%;
+}
+.Booking {
+  > img {
+    max-width: 97%;
+  }
+}
+.sec-2-layout-2 {
+  padding-top: 240px;
+}
+.header-text {
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+  padding-bottom: 100px;
+  h1 {
+    font-size: 50px;
+  }
+}
+.business-h1 {
+  padding: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.arrow {
+  font-size: 30px;
+  font-weight: 900;
+  transform: scale(1.2, 1);
+  color: $primary-clr;
+}
+.sec-3-layout-2 {
+  padding-top: 135px;
+  width: 50%;
+}
+.sec-3-layout-1 {
+  width: 50%;
+}
+.section-3 {
+  height: 100vh;
+}
+.sec-3-img {
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+}
+.sec-4-container {
+  width: 65%;
+  margin: auto;
+  padding-top: 330px;
+  height: 100vh;
+}
+
+.p-padd {
+  padding-top: 35px;
+  padding-bottom: 60px;
+}
+.sec-4-layout-1 {
+  width: 50%;
+}
+.sec-4-layout-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sec-4-image {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.sec-5-container {
+  width: 65%;
+  margin: auto;
+  padding-top: 330px;
+  height: 100vh;
+}
+.sec-5-header-text {
+  text-align: center;
 }

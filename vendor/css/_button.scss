@@ -3,16 +3,18 @@
   background: none;
   font-weight: bold;
   font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
 }
 .btn-pri {
   border-radius: 50px;
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
 }
 .btn-sec {
   border-radius: 50px;
   border: none !important;
   padding: 25px 45px;
-  color: #ffffff;
+
   background-color: $primary-clr;
   box-shadow: 0px 0px 78px -21px rgba(253, 83, 83, 1) !important;
 }
@@ -20,4 +22,33 @@
   padding: 25px 45px;
   border-radius: 50px;
   border: 2px solid #ebebeb;
+  width: 300px;
+  transition: all 0.3s ease-out;
+  &:focus {
+    transition: all 0.3s ease-out;
+    outline: none !important;
+    width: 400px !important;
+  }
+}
+.card-image-container {
+}
+.btn-remind {
+  border: 1px solid #cbcbcb;
+  font-weight: 600;
+  color: #1e1c24;
+}
+.btn-join {
+  border: none;
+  background-color: $primary-clr;
+  color: #ffffff;
+  font-weight: 500;
+}
+.btn-j {
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: translateY(-10px);
+  }
 }
